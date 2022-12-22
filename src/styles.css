@@ -1,0 +1,90 @@
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(52, 0, 9);
+  color: white;
+  margin-top: 50px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+
+
+.body-text {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  font-family: 'Poppins';
+}
+
+
+.mx-auto {
+  background-color: rgb(255, 248, 237);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: none;
+  z-index: 1;
+}
+
+
+.container {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.topFooter {
+  margin-top: 35px;
+}
+
+.topFooter h2 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.topFooter button {
+  font-size: 18px;
+}
+
+.Footer button {
+  margin: 30px;
+  background-color:rgb(255, 198, 107);
+  color: black;
+  font-weight: bold;
+}
+
+.linksMenu p {
+  color: white;
+}
+
+.linksMenu p:hover {
+  transition: all .2s ease-out;
+  transform: scale(.9);
+  opacity: .9;
+}
+
+.hidden button {
+  background-color: rgb(52, 0, 9);
+}

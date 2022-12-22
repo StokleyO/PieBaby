@@ -1,0 +1,140 @@
+
+
+.nutritionContainer{
+  background-color: rgb(0, 136, 80);
+  background-image: url("https://cdn.dribbble.com/users/21415/screenshots/15395118/media/a0f792548c2eb94cbbbb43462891b61d.jpg");
+  background-size: cover;
+  opacity: 95%;
+  font-family: sans-serif;
+  text-align: center;
+  width: 76.25vw;
+  height: 90vmin;
+}
+
+
+
+.foodImage{
+  transform: scale(1);
+  opacity: .95;
+  position: absolute;
+  top: 13vmin;
+  left: 30vw;
+  margin-left: 5vmin;
+  max-height: 74vmin;
+  min-height: 74vmin;
+  min-width: 74vmin;
+  max-width: 74vmin;
+  border-radius: 7px;
+  border: solid rgb(52, 0, 9);
+  padding: 10px;
+  box-shadow: .5vmin 1vmin;
+  overflow: hidden;
+}
+
+
+
+
+.selectMenu {
+  position: absolute;
+  top: 5vmin;
+  padding: 1vmin;
+  font-size: 3vmin;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+
+.serving-info {
+  margin: 0;
+}
+
+body {
+  font-size: small;
+  line-height: 2vmin;
+}
+
+.performance-facts {
+  position: absolute;
+  top: 5vmin;
+  left: 11vw;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 2vmin 0 0;
+  float: left;
+  width: 37vmin;
+  height: 82vmin;
+  padding: .9vmin;
+}
+
+
+
+.performance-facts__title {
+  font-weight: bold;
+  font-size: 4vmin;
+  margin: 1.5vmin 0 1.5vmin 0;
+}
+.performance-facts__header {
+  border-bottom: 1.5vmin solid black;
+  padding: 0 0 0.125vmin 0;
+  margin: 0 0 0.25vmin 0;
+}
+.performance-facts__table {
+  width: 100%;
+  border: 0;
+}
+th{
+  font-weight: normal;
+  text-align: left;
+  padding: 0.25vmin 0;
+  border-top: .1vmin solid black;
+  white-space: nowrap;
+  font-size: 1.7vmin;
+}
+td {
+  font-weight: normal;
+  padding: 0.25vmin 0;
+  border-top: .1vmin solid black;
+  white-space: nowrap;
+  text-align: right;
+  font-size: 1.7vmin;
+}
+.blank-cell {
+  border-top: 0;
+}
+.thick-row {
+  border-top-width: .5vmin;
+}
+
+.small-info {
+  font-size: 1.4vmin;
+}
+
+.performance-facts__table--small {
+  border-bottom: .1vmin solid #999;
+  margin: 0 0 1.5vmin 0;
+  border-bottom: .1vmin solid black;
+  text-align: left;
+  border: 0;
+  padding: 0;
+}
+
+.performance-facts__table--grid {
+  margin: 0 0 0.5vmin 0;
+  font-weight: bold;
+  margin: 0 0.25vmin 0 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.thick-end {
+  border-bottom: 1vmin solid black;
+}
+.thin-end {
+  border-bottom: .1vmin solid black;
+}
+
+
